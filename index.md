@@ -11,6 +11,4 @@ Human subjective evaluation is optimal to assess speech quality for human percep
 
 <br /> 
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/22732198/124917682-c84a5780-dffc-11eb-9f18-4a57ad31a7cb.jpg" width=70% height=70%>
-</p>
+![setup-1](https://user-images.githubusercontent.com/22732198/124920790-60960b80-e000-11eb-9754-bbadd0a88299.jpg)

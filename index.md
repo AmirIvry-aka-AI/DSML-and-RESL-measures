@@ -13,3 +13,8 @@ Human subjective evaluation is optimal to assess speech quality for human percep
 | ![setup-1](https://user-images.githubusercontent.com/22732198/124920790-60960b80-e000-11eb-9754-bbadd0a88299.jpg) |
 |:--:|
 | *General acoustic echo cancellation scenario. The nonlinear components of the echo are modeled with a nonlinear system and the residual echo is suppressed by a dedicated system.* |
+
+<br /> 
+
+## Acoustic Echo Cancellation Setup
+Let <img src="https://latex.codecogs.com/svg.latex?s\left(n\right)"> be the desired near-end speech signal and let <img src="https://latex.codecogs.com/svg.latex?x\left(n\right)"> be the far-end speech signal. The near-end microphone signal <img src="https://latex.codecogs.com/svg.latex?m\left(n\right)"> is given by

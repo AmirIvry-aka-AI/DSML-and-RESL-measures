@@ -17,4 +17,4 @@ Human subjective evaluation is optimal to assess speech quality for human percep
 <br /> 
 
 ## Acoustic Echo Cancellation Setup
-Let <img src="https://latex.codecogs.com/svg.latex?s\left(n\right)"> be the desired near-end speech signal and let <img src="https://latex.codecogs.com/svg.latex?x\left(n\right)"> be the far-end speech signal. The near-end microphone signal <img src="https://latex.codecogs.com/svg.latex?m\left(n\right)"> is given by
+Let <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{100}&space;s\left(n&space;\right&space;)" target="_blank"><img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{100}&space;s\left(n&space;\right&space;)" title="s\left(n \right )" /></a>

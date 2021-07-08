@@ -11,4 +11,6 @@ Human subjective evaluation is optimal to assess speech quality for human percep
 
 <br /> 
 
-![setup-1](https://user-images.githubusercontent.com/22732198/124920790-60960b80-e000-11eb-9754-bbadd0a88299.jpg)
+| ![setup-1](https://user-images.githubusercontent.com/22732198/124920790-60960b80-e000-11eb-9754-bbadd0a88299.jpg) |
+|:--:|
+| *Residual echo suppression scenario* |

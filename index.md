@@ -1,7 +1,8 @@
 <p align="center">
 Amir Ivry, Prof. Israel Cohen, and Dr. Baruch Berdugo<br /> 
-Andrew and Erna Viterbi Faculty of Electrical and Computer Engineering, Technion - Israel Institute of Technology<br /> 
-This research was supported by the Pazy Research Foundation and the ISF-NSFC joint research program
+Andrew and Erna Viterbi Faculty of Electrical and Computer Engineering <br /> 
+Technion - Israel Institute of Technology, Haifa, Israel <br /> 
+This research was supported by the Pazy Research Foundation, the Israel Science Foundation (ISF), and the International Speech Communication Association (ISCA)
 </p>
 
 ## Overview
@@ -11,4 +12,4 @@ Human subjective evaluation is optimal to assess speech quality for human percep
 
 | ![setup-1](https://user-images.githubusercontent.com/22732198/124920790-60960b80-e000-11eb-9754-bbadd0a88299.jpg) |
 |:--:|
-| *Residual echo suppression scenario* |
+| *General acoustic echo cancellation scenario. The nonlinear components of the echo are modeled with a nonlinear system and the residual echo is suppressed by a dedicated system.* |

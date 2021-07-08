@@ -1,7 +1,7 @@
 # Objective Metrics to Evaluate Residual-Echo Suppression During Double-Talk 
 
 <p align="center">
-mir Ivry, Prof. Israel Cohen, and Dr. Baruch Berdugo<br /> 
+Amir Ivry, Prof. Israel Cohen, and Dr. Baruch Berdugo<br /> 
 Andrew and Erna Viterbi Faculty of Electrical and Computer Engineering, Technion - Israel Institute of Technology<br /> 
 This research was supported by the Pazy Research Foundation and the ISF-NSFC joint research program
 </p>
@@ -12,5 +12,5 @@ Human subjective evaluation is optimal to assess speech quality for human percep
 <br /> 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/22732198/124917682-c84a5780-dffc-11eb-9f18-4a57ad31a7cb.JPG" width=70% height=70%>
+<img src="https://user-images.githubusercontent.com/22732198/124917682-c84a5780-dffc-11eb-9f18-4a57ad31a7cb.jpg" width=70% height=70%>
 </p>

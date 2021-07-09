@@ -29,7 +29,7 @@ The RESL is derived by estimating the noisy residual-echo as <img src="https://l
 Note that the RES system may introduce a constant attenuation that leads to an artificial desired-speech distortion in the DSML. To ensure it is invariant to that attenuation, the DSML is compensated as in [6]. Explicitly, <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{120}&space;$\tilde{s}\left(n\right)&space;=&space;\widehat{g}\left(n\right)s\left(n\right)$" title="$\tilde{s}\left(n\right) = \widehat{g}\left(n\right)s\left(n\right)$" /> where <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{120}&space;\widehat{g}\left(n\right)=\frac{\bigl&space;<g\left(n\right)&space;s\left(n\right),&space;s\left(n\right)\bigr>}{\Vert&space;s\left(n\right)\Vert_{2}^{2}}&space;." title="\widehat{g}\left(n\right)=\frac{\bigl <g\left(n\right) s\left(n\right), s\left(n\right)\bigr>}{\Vert s\left(n\right)\Vert_{2}^{2}} ." />
 
 ## Demo
-<iframe src="Demo/target.wav" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
+https://user-images.githubusercontent.com/22732198/125112524-f2c90d00-e0ef-11eb-81c1-c2bbe64412ce.mp4
 
 ## References
 [1] C.  K.  Reddy,  V.  Gopal,  and  R.  Cutler,  “DNSMOS:  A non-intrusive perceptual objective speech quality metric to evaluate noise suppressors, ”arXiv:2010.15258, 2020. <br/>

@@ -1,7 +1,6 @@
 <p align="center">
 Amir Ivry, Prof. Israel Cohen, and Dr. Baruch Berdugo<br /> 
-Andrew and Erna Viterbi Faculty of Electrical and Computer Engineering <br /> 
-Technion - Israel Institute of Technology, Haifa, Israel <br /> 
+Andrew and Erna Viterbi Faculty of Electrical and Computer Engineering, Technion - Israel Institute of Technology<br /> 
 This research was supported by the Pazy Research Foundation, the Israel Science Foundation (ISF), and the International Speech Communication Association (ISCA)
 </p>
 

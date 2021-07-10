@@ -27,7 +27,8 @@ The RESL is derived by estimating the noisy residual-echo as <img src="https://l
 Note that the RES system may introduce a constant attenuation that leads to an artificial desired-speech distortion in the DSML. To ensure it is invariant to that attenuation, the DSML is compensated as in [6]. Explicitly, <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{120}&space;$\tilde{s}\left(n\right)&space;=&space;\widehat{g}\left(n\right)s\left(n\right)$" title="$\tilde{s}\left(n\right) = \widehat{g}\left(n\right)s\left(n\right)$" /> where <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{120}&space;\widehat{g}\left(n\right)=\frac{\bigl&space;<g\left(n\right)&space;s\left(n\right),&space;s\left(n\right)\bigr>}{\Vert&space;s\left(n\right)\Vert_{2}^{2}}&space;." title="\widehat{g}\left(n\right)=\frac{\bigl <g\left(n\right) s\left(n\right), s\left(n\right)\bigr>}{\Vert s\left(n\right)\Vert_{2}^{2}} ." />
 
 ## Demo
-Demo examples can be found in this soundcloud repo: 
+Demo examples can be found in this soundcloud repo: https://soundcloud.com/ai4audio/sets/objective-metrics-to-evaluate-residual-echo-suppression-during-double-talk.
+
 
 ## Acknowledgements
 This research was supported by the Pazy Research Foundation, the Israel Science Foundation (ISF), and the International Speech Communication Association (ISCA). We would also like to thank stem audio for their technical support.

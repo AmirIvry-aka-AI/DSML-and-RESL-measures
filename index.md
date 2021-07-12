@@ -26,8 +26,15 @@ The RESL is derived by estimating the noisy residual-echo as <img src="https://l
 <br />
 Note that the RES system may introduce a constant attenuation that leads to an artificial desired-speech distortion in the DSML. To ensure it is invariant to that attenuation, the DSML is compensated as in [6]. Explicitly, <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{120}&space;$\tilde{s}\left(n\right)&space;=&space;\widehat{g}\left(n\right)s\left(n\right)$" title="$\tilde{s}\left(n\right) = \widehat{g}\left(n\right)s\left(n\right)$" /> where <img src="https://latex.codecogs.com/png.latex?\inline&space;\dpi{120}&space;\widehat{g}\left(n\right)=\frac{\bigl&space;<g\left(n\right)&space;s\left(n\right),&space;s\left(n\right)\bigr>}{\Vert&space;s\left(n\right)\Vert_{2}^{2}}&space;." title="\widehat{g}\left(n\right)=\frac{\bigl <g\left(n\right) s\left(n\right), s\left(n\right)\bigr>}{\Vert s\left(n\right)\Vert_{2}^{2}} ." />
 
-## Demo
-Demo examples can be found in this [soundcloud playlist](https://soundcloud.com/ai4audio/sets/objective-metrics-to-evaluate-residual-echo-suppression-during-double-talk).
+## Code and demo
+Code for generating the DSML and RESL measures can be found in my [git repo](https://github.com/AmirIvry-aka-AI/DSML-and-RESL-measures)
+
+Demo examples can be found in this [soundcloud playlist](https://soundcloud.com/ai4audio/sets/objective-metrics-to-evaluate-residual-echo-suppression-during-double-talk). These playlists include the separate effect of the RES system gain on the desired speech, namely <img src="https://latex.codecogs.com/svg.image?g(n)s(n)&space;" title="g(n)s(n) " />, and on the noisy residual echo, namely <img src="https://latex.codecogs.com/svg.image?g(n)r(n)&space;" title="g(n)r(n) " />. 
+
+Here is a comparison between the applying the RES system gain on both the desired speech and the noisy residual echo, and applying it separately to each:
+| ![demo_stft](https://user-images.githubusercontent.com/22732198/125234360-3cc91300-e2e9-11eb-81a9-2b65804a4f9c.jpg) |
+|:--:|
+| *The separate effect of the RES system gain on the desired speech and on the noisy residual echo in the short-time Fourier transform domain.* |
 
 
 ## Acknowledgements

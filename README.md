@@ -1,7 +1,7 @@
-# Objective Metrics to Evaluate Residual-Echo Suppression During Double-Talk - WASPAA Conference 2021
+# Objective Metrics to Evaluate Residual-Echo Suppression During Double-Talk (Accepted to WASPAA 2021 Conference)
 ## Amir Ivry, Prof. Israel Cohen, Dr. Baruch Berdugo
 > Human subjective evaluation is optimal to assess speech quality for human perception, and the recently introduced deep noise suppression mean opinion score (DNSMOS) metric was shown to estimate human ratings with great accuracy. Still, the signal-to-distortion ratio (SDR) metric is widely used to evaluate residual-echo suppression (RES) systems by estimating speech quality during double-talk. However, since the SDR is affected by both speech distortion and residual-echo presence, it does not correlate well with human ratings according to the DNSMOS. <br/> To address that, we introduce two objective metrics to separately quantify the desired-speech maintained level (DSML) and residual-echo suppression level (RESL) during double-talk, and share the code here for reproducability. <br/> You are also encouraged to refer to the more elaborated [github page](https://amirivry-aka-ai.github.io/DSML-and-RESL-measures/) and published paper [Arxiv].
-> Demo can be found [_here_](https://soundcloud.com/ai4audio/sets/objective-metrics-to-evaluate-residual-echo-suppression-during-double-talk). <!-- If you have the project hosted somewhere, include the link here. -->
+> Demo can be found [_here_](https://soundcloud.com/ai4audio/sets/objective-metrics-to-evaluate-residual-echo-suppression-during-double-talk). 
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -14,7 +14,6 @@
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
 
 
 ## General Information
@@ -44,40 +43,33 @@ List the ready features here:
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
+To prepare for usage, the user should follows two steps:
+- Create a parent direcotry and assign its relative path to `data_path` variable inside `main.py`
+- Inside this dir, locate every separate set of examples to analyze in a separate subdirectory, and name it uniquely. Each subfolder must contain at least 3 .wav files - the near end speech, the RES input, and the RES prediction. The names of these 3 files should be uniform accross all subdirectories. Assign these 3 file names to the `patterns` variable inside `main.py`. 
+- The `requirements.txt` added to this repo should be attached to the project.
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+After setup, the user should follow these steps to use the code:
+- run: `pip install -r requirements.txt`
+- run: `main.py`
+- The log file will appear inside the path specified in `data_path` (see _Setup_ for details)
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is complete with respect to occassional fine-tuning (see _Room for Improvement_ below)
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
+Future release may include: 
+- Double-talk detector for efficient analysis of measures
+- Additional parameters for enhanced user experience (e.g., saving option of raw measures data and its figures)
+- Option to run code from shell
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+This research was supported by the Pazy Research Foundation, the Israel Science Foundation (ISF), and the International Speech Communication Association (ISCA). We would also like to thank stem audio for their technical support.
 
 
 ## Contact
-Created by [Amir Ivry](https://www.linkedin.com/in/amirivry/) - feel free to contact me!
+Created by [Amir Ivry](https://www.linkedin.com/in/amirivry/) - feel free to contact me also via [amirivry@gmail.com](amirivry@gmail.com).

@@ -3,6 +3,7 @@
 > Human subjective evaluation is optimal to assess speech quality for human perception, and the recently introduced deep noise suppression mean opinion score (DNSMOS) metric was shown to estimate human ratings with great accuracy. Still, the signal-to-distortion ratio (SDR) metric is widely used to evaluate residual-echo suppression (RES) systems by estimating speech quality during double-talk. However, since the SDR is affected by both speech distortion and residual-echo presence, it does not correlate well with human ratings according to the DNSMOS. <br/> To address that, we introduce two objective metrics to separately quantify the desired-speech maintained level (DSML) and residual-echo suppression level (RESL) during double-talk. <br/> We share the code here for reproducability and it is our hope you will also find it instructive for speech quality evaluation. You are also encouraged to refer to the more elaborated [github page](https://amirivry-aka-ai.github.io/DSML-and-RESL-measures/) and published paper [Arxiv].
 > Demo can be found [_here_](https://soundcloud.com/ai4audio/sets/objective-metrics-to-evaluate-residual-echo-suppression-during-double-talk). 
 
+
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
@@ -15,11 +16,7 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The attached code implements the two measures we developed to better assess speech quality and echo suppression during double-talk. In essence, the DSML and RESL measures are fit to evaluate any deep learning-based system that can be viewed as a gain, not just RES systems as done in this study. These measures are established on the idea that this time-varying gain, when applied separately to the desired signal and to its interference, produces a more instructive insight on the system performance. In fact, this separation allows an independent assessment of the speech distortion and the interference suppression of the system. Fellows are encouraged to apply these measures to their own RES systems, as well as to speech enhancement, speech recognition in transient noisy environment, and acoustic echo cancellation systems. 
 
 
 ## Technologies Used

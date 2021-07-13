@@ -1,6 +1,7 @@
 """
-This script should be run to produce the DSML and RESL measures for all subdirectories in data_path as the doc suggests.
+This script should be run to produce the DSML and RESL measures for all subdirectories in data_path.
 For elaborated documentation - see: https://github.com/AmirIvry-aka-AI/DSML-and-RESL-measures/tree/main
+Copyright (c) 2021 Amir Ivry
 """
 from utils import parse_files_from_path, read_wav_files, save_and_plot
 from evaluation_metrics import calc_resl_dsml

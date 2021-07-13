@@ -1,5 +1,6 @@
 # Objective Metrics to Evaluate Residual-Echo Suppression During Double-Talk (Accepted to WASPAA 2021 Conference)
-### Amir Ivry, Prof. Israel Cohen, Dr. Baruch Berdugo <br/> Andrew and Erna Viterbi Faculty of Electrical and Computer Engineering, Technion - Israel Institute of Technology
+### Amir Ivry, Prof. Israel Cohen, Dr. Baruch Berdugo <br/> 
+#### Andrew and Erna Viterbi Faculty of Electrical and Computer Engineering, Technion - Israel Institute of Technology
 > Human subjective evaluation is optimal to assess speech quality for human perception, and the recently introduced deep noise suppression mean opinion score (DNSMOS) metric was shown to estimate human ratings with great accuracy. Still, the signal-to-distortion ratio (SDR) metric is widely used to evaluate residual-echo suppression (RES) systems by estimating speech quality during double-talk. However, since the SDR is affected by both speech distortion and residual-echo presence, it does not correlate well with human ratings according to the DNSMOS. <br/> To address that, we introduce two objective metrics to separately quantify the desired-speech maintained level (DSML) and residual-echo suppression level (RESL) during double-talk. <br/> We share the code here for reproducability and it is our hope you will also find it instructive for speech quality evaluation. You are also encouraged to refer to the more elaborated [github page](https://amirivry-aka-ai.github.io/DSML-and-RESL-measures/) and published paper [Arxiv].
 > Demo can be found [_here_](https://soundcloud.com/ai4audio/sets/objective-metrics-to-evaluate-residual-echo-suppression-during-double-talk). 
 
@@ -58,13 +59,19 @@ Project is complete with respect to occassional fine-tuning (see _Room for Impro
 
 ## Room for Improvement
 Future release may include: 
-- Double-talk detector for efficient analysis of measures
-- Additional parameters for enhanced user experience (e.g., saving option of raw measures data and its figures)
-- Option to run code from shell
+- Enhance user experience by adding more features and GUI
+- Permit running the code from shell
 
 
 ## Acknowledgements
-This research was supported by the Pazy Research Foundation, the Israel Science Foundation (ISF), and the International Speech Communication Association (ISCA). We would also like to thank stem audio for their technical support.
+This research was supported by the Pazy Research Foundation, the Israel Science Foundation (ISF), and the International Speech Communication Association (ISCA). We would also like to thank stem audio for their technical support. If you use this repo or other instance of this research, please cite the following: <br/>
+@inproceedings{ivry2021objective,<br/>
+  title={Objective Metrics to Evaluate Residual-Echo Suppression During Double-Talk},<br/>
+  author={Ivry, Amir and Cohen, Israel and Berdugo, Baruch},<br/>
+  booktitle={WASPAA},<br/>
+  year={2021},<br/>
+  organization={IEEE}<br/>
+}
 
 
 ## Contact

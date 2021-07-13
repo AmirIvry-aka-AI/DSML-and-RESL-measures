@@ -13,8 +13,6 @@ warnings.filterwarnings('ignore')
 data_path = 'Demo'
 patterns = ('near_end_speech', 'res_input', 'res_prediction')
 
-
-
 log_file = open(os.path.join(data_path, 'evaluation_metrics.txt'), 'w')
 paths_list = parse_files_from_path(data_path, patterns=patterns)
 for path_list in paths_list:

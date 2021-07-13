@@ -28,37 +28,38 @@ The attached code implements the two measures we developed to better assess spee
 
 
 ## Setup
-To prepare for usage, the user should follow steps:
+To prepare for usage, the user should follow these steps:
 - Clone this repo
 - Set up a virtual environment and run: `pip install -r requirements.txt`
 - Create a parent direcotry and assign its relative path to `data_path` variable inside `main.py`
-- Inside this dir, locate every separate set of examples to analyze in a separate subdirectory, and name it uniquely. Each subfolder must contain at least 3 .wav files - the near end speech, the RES input, and the RES prediction. The names of these 3 files should be uniform accross all subdirectories. Assign these 3 file names to the `patterns` variable inside `main.py`. 
+- Inside this dir, locate each example in a separate subdirectory with a unique name. Every subfolder must contain the near end speech, the RES input before the system gain, and the RES prediction after the system gain, all in the time domain (.wav format). The names of these 3 files are user-dependent, but should not vary accross subdirectories. Assign the files names to `patterns` inside `main.py` and ensure the order of appearance is as given above.
 
-The last two steps are explained with the following snippet. After cloning the repo and setting up the venv, a parent directory called _Demo_ is created and its name is assigned to `data_path`. Inside _Demo_, there are 5 subdirectories uniquely named _Example 1_ through _Exmaple 5_. Inside _Example 1_, for instance, there are several files, 3 of which are essential - _near_end_speech.wav_, _res_input.wav_, and _res_prediction.wav_. These names are consistent across all subdirectores and are assigned in *that order* to `patterns`.
+The last two steps are explained with the following demo example. After cloning the repo and setting up the venv, a parent directory called _Demo_ is created and its name is assigned to `data_path`. Inside _Demo_, there are 5 subdirectories uniquely named _Example 1_ through _Exmaple 5_. Inside _Example 1_, for instance, there are several files, 3 of which are essential - _near_end_speech.wav_, _res_input.wav_, and _res_prediction.wav_. These names are consistent across all subdirectores and are assigned in *that order* to `patterns`.
 
 
 | ![image](https://user-images.githubusercontent.com/22732198/125336393-64a29000-e356-11eb-910d-1b7af4520549.png) |
 |:--:|
-| *Snippet of the project setup before run* |
+| *Snippet of a demo project setup, prepared for usage.* |
 
 
 ## Usage
 After setup, the user should follow these steps to use the code:
 - run: `main.py`
-- The log file `evaluation_metrics.txt` will appear inside the path specified in `data_path` (see _Setup_ for details). It contains the mean and standard deviation values for every subdirectory.
+- The log file `evaluation_metrics.txt` (the name is hard-coded) will appear inside the path assigned to the variable `data_path` (see _Setup_ for details). It contains the mean and standard deviation values of the DSML and RESL measures for every subdirectory.
 
 
 | ![image](https://user-images.githubusercontent.com/22732198/125337140-4ab57d00-e357-11eb-91d7-40c16f2864f8.png) |
 |:--:|
-| *Snippet of the project setup after run* |
+| *Snippet of the produced `evaluation_metrics.txt` file after demo run.* |
 
 
 ## Project Status
-Project is complete with respect to occassional fine-tuning (see _Room for Improvement_ below)
+Project is complete. Occassional fine-tuning may appear (see _Room for Improvement_).
 
 
 ## Room for Improvement
-Future release may include: 
+Future release may include:
+- Automatic double-talk detector to filter out irrelavant single-talk segments 
 - Enhance user experience by adding more features and GUI
 - Permit running the code from shell
 

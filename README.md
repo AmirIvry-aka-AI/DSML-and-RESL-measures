@@ -66,13 +66,13 @@ Future release may include:
 
 ## Acknowledgements
 This research was supported by the Pazy Research Foundation, the Israel Science Foundation (ISF), and the International Speech Communication Association (ISCA). We would also like to thank stem audio for their technical support. If you use this repo or other instance of this research, please cite the following: <br/>
-@inproceedings{ivry2021objective,<br/>
-  title={Objective Metrics to Evaluate Residual-Echo Suppression During Double-Talk},<br/>
-  author={Ivry, Amir and Cohen, Israel and Berdugo, Baruch},<br/>
-  booktitle={WASPAA},<br/>
-  year={2021},<br/>
-  organization={IEEE}<br/>
-}
+`@inproceedings{ivry2021objective,`<br/>
+  `title={Objective Metrics to Evaluate Residual-Echo Suppression During Double-Talk},`<br/>
+  `author={Ivry, Amir and Cohen, Israel and Berdugo, Baruch},`<br/>
+  `booktitle={WASPAA},`<br/>
+  `year={2021},`<br/>
+  `organization={IEEE}`<br/>
+`}`
 
 
 ## Contact

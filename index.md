@@ -31,7 +31,7 @@ Note that the RES system may introduce a constant attenuation that leads to an a
 ## Code and demo
 Code for generating the DSML and RESL measures can be found in my [git repo](https://github.com/AmirIvry-aka-AI/DSML-and-RESL-measures).
 
-The full paper accepted to WASPAA 2021 can be found in my [Arxiv page](https://github.com/AmirIvry-aka-AI/DSML-and-RESL-measures).
+The full paper accepted to WASPAA 2021 can be found in my [ResearchGate page](https://www.researchgate.net/publication/353260228_OBJECTIVE_METRICS_TO_EVALUATE_RESIDUAL-ECHO_SUPPRESSION_DURING_DOUBLE-TALK)
 
 Demo examples can be found in my [soundcloud playlist](https://soundcloud.com/ai4audio/sets/objective-metrics-to-evaluate-residual-echo-suppression-during-double-talk). These playlists include the separate effect of the RES system gain on the desired speech, namely <img src="https://latex.codecogs.com/svg.image?g(n)s(n)&space;" title="g(n)s(n) " />, and on the noisy residual echo, namely <img src="https://latex.codecogs.com/svg.image?g(n)r(n)&space;" title="g(n)r(n) " />. It is also instructive to view the following comparison between applying the RES system gain on both the desired speech and the noisy residual echo, and applying it separately to each:
 

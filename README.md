@@ -7,25 +7,14 @@
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
 * [Setup](#setup)
 * [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 
 
 ## General Information
 The attached code implements the two measures we developed to better assess speech quality and echo suppression during double-talk. In essence, the DSML and RESL measures are fit to evaluate any deep learning-based system that can be viewed as a gain, not just RES systems as done in this study. These measures are established on the idea that this time-varying gain, when applied separately to the desired signal and to its interference, produces a more instructive insight on the system performance. In fact, this separation allows an independent assessment of the speech distortion and the interference suppression of the system. Fellows are encouraged to apply these measures to their own RES systems, as well as to speech enhancement, speech recognition in transient noisy environment, and acoustic echo cancellation systems. 
-
-
-## Technologies Used
-- Python 3.8.6
-- scipy==1.7.0
-- matplotlib==3.4.2
-- numpy==1.21.0
-
 
 ## Setup
 To prepare for usage, the user should follow these steps:
@@ -51,17 +40,6 @@ After setup, the user should follow these steps to use the code:
 | ![image](https://user-images.githubusercontent.com/22732198/125337140-4ab57d00-e357-11eb-91d7-40c16f2864f8.png) |
 |:--:|
 | *Snippet of the produced `evaluation_metrics.txt` file after demo run.* |
-
-
-## Project Status
-Project is complete. Occassional fine-tuning may appear (see _Room for Improvement_).
-
-
-## Room for Improvement
-Future release may include:
-- Automatic double-talk detector to filter out irrelavant single-talk segments 
-- Enhance user experience by adding more features and GUI
-- Permit running the code from shell
 
 
 ## Acknowledgements
